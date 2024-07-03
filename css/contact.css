@@ -163,6 +163,8 @@ input{
     border-radius: 30px;
     height: 520px;
     display: inline-block;
+    animation-name: animation;
+    animation-duration: 2.5s;
 }
 #finalbox h1{
     color: white;
