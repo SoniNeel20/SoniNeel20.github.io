@@ -68,7 +68,17 @@ li{
     display: grid;
     grid-template-columns: auto auto;
     height: fit-content;
+    animation-name: animation;
+    animation-duration: 2.5s;
 }
+@keyframes animation{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.0);
+    }
+} 
 #mail-text{
     margin: auto;
     padding-left: 80px;
@@ -88,6 +98,8 @@ li{
     display: grid;
     grid-template-columns: auto auto;
     height: fit-content;
+    animation-name: animation;
+    animation-duration: 2.5s;
 }
 #contact-text{
     color: #a1a1a1;
@@ -109,6 +121,8 @@ li{
     display: grid;
     grid-template-columns: auto auto;
     height: fit-content;
+    animation-name: animation;
+    animation-duration: 2.5s;
 }
 #location-img{
     background-color: #323232;
