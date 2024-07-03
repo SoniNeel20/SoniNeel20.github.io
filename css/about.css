@@ -1,0 +1,316 @@
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+#navbar-info a{
+    margin: 20px;
+    color: #a1a1a1;
+    font-size: 12px;
+    position: relative;
+    top: 7px;
+}
+#gridx{
+    font-size: larger;
+    font-size: 22px;   
+}
+#nav-button:hover {
+    background-color: white;
+    color:#323232;
+}
+#nav-button {
+    background-color: #323232;
+    color: white;
+    transition-duration: 0.3s;
+    border-radius: 15px;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    padding: 10px 20px;
+}
+#navbar-info :hover{
+    color: rgb(255, 255, 255);
+}
+#photo-parent{
+    background-image: linear-gradient(to right, rgb(32,32,32) ,rgb(20,20,20));
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+    margin: 20px;
+}
+#photo-parent img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-image: linear-gradient( to right, rgb(98,130,235),rgb(186,231,252),rgb(95,184,227));
+    margin-right: 20px;    
+}
+#intro-parent{
+    background-image: linear-gradient(to right, rgb(32,32,32) ,rgb(20,20,20));
+    width: 560px;
+    padding: 20px;
+    border-radius: 30px;
+    height: 150px;
+    margin: auto;
+}
+#intro-main h1{
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+#intro-main h5{
+    color: rgb(145, 145, 145);
+    font-family: 'Inter', sans-serif;
+}
+#row1{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+@keyframes animation{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.0);
+    }
+}
+#experience-parent{
+    background-image: linear-gradient(to right, rgb(32,32,32) ,rgb(20,20,20));
+    width: 370px;
+    padding: 25px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 220px;
+    margin: 20px;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+@keyframes animation{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.0);
+    }
+}
+#experience-main{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 23px;
+    font-family: 'Inter', sans-serif;
+}
+#experience-main p{
+    color: #BCBCBC;
+    margin-bottom: 12px;
+    font-family: 'Inter', sans-serif;
+}
+#experience-main h2{
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.9;
+    margin-bottom: 7px;
+    font-family: 'Inter', sans-serif;
+}
+.type{
+    color: #BCBCBC;
+    font-size: 14px;
+    opacity: 0.6;
+    margin: 0;
+}
+#date{
+    color: #BCBCBC;
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+#education-parent{
+    background-image: linear-gradient(to right, rgb(32,32,32) ,rgb(20,20,20));
+    width: 370px;
+    padding: 25px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 220px;
+    margin: 20px;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+@keyframes animation{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.0);
+    }
+}
+#education-main h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 23px;
+    font-family: 'Inter', sans-serif;
+}
+.date{
+    color: #BCBCBC;
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+#education-main h2{
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.9;
+    margin-bottom: 7px;
+    font-family: 'Inter', sans-serif;
+}
+#row2{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+}
+#credentials-image{
+    height: 225px;
+    width: 220px;
+    border: 5px ;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgb(32,32,32) ,rgb(20,20,20));
+    border-radius: 25px;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+#credentials-image h3{
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #a1a1a1;
+    margin: 0px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#credentials-image h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    padding-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+}
+#profile-parent{
+    border: 30px;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgb(32,32,32) ,rgb(20,20,20));
+    border-radius: 20px;
+    border-radius: 20px;
+    height: 220px;
+    width:250px;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+@keyframes animation{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.0);
+    }
+} 
+#profile-symbol{
+    border: 50px;
+    background-image: linear-gradient(to left, rgb(30, 30, 30) ,rgb(21, 20, 20));
+    border-radius: 20px;
+    height: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 52px;
+    margin-bottom: 16px;
+    margin: auto;
+    margin-top: 20px;
+}
+#profile-account h1{
+    font-size: 24px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+}
+#profile-account h4{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+    color: #a1a1a1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+}
+#insta{
+    background-color: #323232;
+    color: white;
+    transition-duration: 0.3s;
+    border: 20px solid;
+    margin: auto;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-color:  rgb(39,39,39);
+    border-color:  rgb(39,39,39);
+    margin-left: 50%;
+    margin-top: 100%;
+}
+#linkedin{
+    border: 20px solid;
+    margin: auto;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-color:  rgb(39,39,39);
+    border-color:  rgb(39,39,39);
+    margin-left: 50%;
+    margin-top: 100%;
+}
+#finalbox{
+    background-image: linear-gradient(to right, rgb(32,32,32) ,rgb(20,20,20));
+    width: 450px;
+    padding: 15px;
+    border-radius: 30px;
+    height: 195px;
+    display: inline-block;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+#finalbox h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#row3{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+}
+#together{
+    color: rgb(91,120,246);
+}
