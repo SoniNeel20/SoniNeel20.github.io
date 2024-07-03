@@ -175,10 +175,8 @@ button{
 }
 #parent{
     margin: auto;
-    width: fit-content;
-    display: grid;
-    grid-template-columns: auto auto;
-    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
 }
 button:hover{
     background-color: white;
